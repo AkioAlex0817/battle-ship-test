@@ -1,0 +1,52 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-size: cover;
+  background-image: url('../public/assets/images/bg.png');
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+.battle-ship {
+  width: 500px;
+  height: 500px;
+  max-width: 500px;
+  max-height: 500px;
+  background-size: calc(100% + 50px);
+  background-image: url('../public/assets/images/battle_ship.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.planet {
+  width: 500px;
+  height: 500px;
+  max-width: 500px;
+  max-height: 500px;
+  background-size: calc(100% + 50px);
+  background-image: url('../public/assets/images/earth.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
