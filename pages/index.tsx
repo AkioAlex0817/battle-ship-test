@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         planetElem = document.querySelector(".planet");
         document.addEventListener("mousemove", parallax);
     });
-    
+
     const parallax = (e: any) => {
         let _w = window.innerWidth / 2;
         let _h = window.innerHeight / 2;
